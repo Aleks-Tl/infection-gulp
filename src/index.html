@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo-sm.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Infection</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+
+    <section class="promo"
+      style="background-image: url('img/baner-homepage.jpg'); background-repeat: no-repeat; background-size: cover; background-position: top center;">
+      <div class="container">
+        <div class="promo__wrap">
+          <div class="promo__title title">Environmental Sanitization and Cleaning Solutions</div>
+          <div class="promo__subtitle">Our core business is to improve safety by driving professional excellence in
+            infection control and environmental cleaning.</div>
+          <a href="#" class="promo__btn">Our Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__wrap">
+          <div class="about__img"><img src="img/about-img.jpg" alt="about img"></div>
+          <div class="about__descr">
+            <div class="about__title title">About Us</div>
+            <div class="about__text">
+              <p>We help frustrated facility managers who want an evidence-based cleaning solution to the threat of
+                microbial contamination, so they can feel safe and focus on delivering high quality service to their
+                customers.
+              </p>
+              <p>We do this by providing top-notch teams of highly skilled cleaning specialists trained in empirical
+                cleaning methodology to deliver log reductions in microbial contamination¸ so that our customers and
+                customers customers can feel safe.
+              </p>
+              <p>The Environmental Sanitization and Cleaning Solution delivered by Infection professionals comes with a
+                SANIFIELD SAFE verification that means your space has been cleaned to the highest standard with suitable
+                products.
+              </p>
+              <p>Microbial resistance and healthcare-associated infections are two of the biggest threats in health
+                care. They cause significant increases in patient morbidity and mortality and can increase the service
+                delivery costs tenfold, not to mention the administrative, legal and socioeconomic burden.
+              </p>
+              <p>It is for this reason that Infection Professionals customer focused sanitization and cleaning service
+                is firmly based upon collaborative working relationships with our health industry clientele. </p>
+              <p>
+                The costs of professional quality environmental sanitization and cleaning services are relatively minor.
+                Cost-benefit-risk analysis clearly illustrates that investment in professional quality environmental
+                sanitization and cleaning services is highly cost-effective. We know that with our infection
+                professionals supervising small agile cleaning teams, environmental sanitization and cleaning is highly
+                cost-effective.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    @include('partials/services.html')
+
+    <section class="leaders">
+      <div class="container">
+        <div class="leaders__title title">We’re Leaders in Our Idustry</div>
+        <div class="leaders__text">
+          <p>Infection Professionals inspects what you expect. Our unyielding focus on continuous improvement drives our
+            service delivery excellence.</p>
+          <p><b>Teams: </b>Small agile teams of professional cleaners under direct Infection Prevention and
+            Control (IPC) specialist supervision, ensure consultative, collaborative and customer focused service.</p>
+          <p><b>Training: </b>Customers and staff receive ongoing education to ensure quality service standards
+            and career opportunities are maintained.</p>
+          <p><b>Excellence: </b>Excellence: Service excellence, strong reputation, competitive advantage, and
+            savvy costing model is grounded in solid operational policies, systems and procedures.</p>
+        </div>
+        <div class="leaders__wrap">
+          <img src="img/leaders-img.jpg" alt="leaders-img">
+          <div class="leaders__descr">
+            <div class="leaders__title title">Not happy with your current cleaners?</div>
+            <p>We help health organisation managers that are frustrated that their current cleaners are not up to the
+              mark when it comes to preventing microbial load, cross contamination, and microbial reservoir development.
+              Even worse they can’t track their ROI from their current cleaning programme.</p>
+            <p class="leaders__bold">If this sounds familiar, let’s talk.</p>
+            <a href="#" class="leaders__btn btn btn-reset">BOOK A FREE CLEANING AND SANITIZATION AUDIT</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    @include('partials/footer.html')
+  </div>
+
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
