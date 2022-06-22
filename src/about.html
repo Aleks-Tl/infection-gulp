@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo-sm.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Infection</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+
+    <section class="banner"
+      style="background-image: url('img/bg-about-us.jpg'); background-repeat: no-repeat; background-size: cover; background-position: top center;">
+      <div class="container">
+        <h2 class="banner__title title-sm">About Us</h2>
+      </div>
+    </section>
+
+    <section class="aboutus">
+      <div class="container">
+        <div class="aboutus__wrap">
+          <div class="aboutus__img">
+            <img src="img/photo-aboutus.png" alt="about-img">
+            <div class="aboutus__decr">
+              <div class="aboutus__mission">Our Mission</div>
+              <div class="aboutus__text">To improve safety in healthcare by driving professional excellence in infection
+                control and environmental cleaning.</div>
+            </div>
+          </div>
+          <div class="aboutus__content">
+            <div class="aboutus__title title">Our Founder</div>
+            <div class="aboutus__decription">
+              <p>As a teenager our founder John spent many Friday and Saturday nights helping his chef mother do the end
+                of day clean and next day prep in a hotel’s commercial kitchen. This work placed him in a good position
+                to support himself at university through working as commercial cleaner in public restrooms, aged care
+                facilities, public & private hospitals, surgical units, respite centres, private medical centres, and
+                the government buildings in Melbourne. During Johns’ science degree at Victoria University, he developed
+                a professional knowledge of cross contamination through his studies in microbiology and pathophysiology.
+                Following completion of his science degree John worked as a fulltime surgical unit cleaner and head of
+                Kyneton hospital cleaning services for Central highlands regional health.
+              </p>
+              <p>In 2008 John lost his sister Jennifer (aged 52) to sequela of a gastroenteritis infection. Coronial
+                investigation confirmed cross contamination with GII.4 Norovirus resulting in gastroparesis and
+                formation of a bezoar which was fatal due to the development of pericarditis and resultant cardiac
+                tamponade.
+              </p>
+              <p>The loss of Jenifer due to a cross contamination of Norovirus within a hospital motivated John to get a
+                Certificate III in commercial cleaning practice, a certificate of Infection Prevention and Control from
+                the Australasian College of infection Prevention and Control (ACIPC) and Grad Cert in Infection
+                Prevention and Containment (IPC) from Griffith University.
+              </p>
+              <p>As the founder of Infection Professionals John has a strong and deeply personal motivation to ensure
+                the highest standard of cleaning and sanitation so that other families do not have to lose loved ones
+                because of low standard environmental cleaning and poor IPC practice standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="values">
+      <div class="container">
+        <div class="values__title title">Our Values</div>
+        <div class="values__wrap">
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-1.svg" alt="Values icon"></div>
+              <div class="values__name">Quality</div>
+            </div>
+            <div class="values__text">We satisfy our customers with superior quality, value and consistently high
+              standards of service</div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-2.svg" alt="Values icon"></div>
+              <div class="values__name">Responsive</div>
+            </div>
+            <div class="values__text">We are responsive to our customers’ needs and wants </div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-3.svg" alt="Values icon"></div>
+              <div class="values__name">Supportive</div>
+            </div>
+            <div class="values__text">We support our staff and customers by ensuring health and safety in across all our
+              operations</div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-4.svg" alt="Values icon"></div>
+              <div class="values__name">Professionalism</div>
+            </div>
+            <div class="values__text">We strive for continuous improvement, excellence in communication and sustainable
+              collaboration in all our interactions</div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-5.svg" alt="Values icon"></div>
+              <div class="values__name">Integrity</div>
+            </div>
+            <div class="values__text">We act with uncompromising honesty, integrity and confidentiality in everything we
+              do</div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-6.svg" alt="Values icon"></div>
+              <div class="values__name">Learning</div>
+            </div>
+            <div class="values__text">We are a learning company that values and develops our employees’ diverse talents,
+              initiative, innovation and leadership potential</div>
+          </div>
+
+          <div class="values__item">
+            <div class="values__head">
+              <div class="values__icon"><img src="img/values-icon-7.svg" alt="Values icon"></div>
+              <div class="values__name">Leadership</div>
+            </div>
+            <div class="values__text">We are leaders in environmental cleaning standards, quality and service delivery
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    @include('partials/services.html')
+
+    @include('partials/footer.html')
+  </div>
+
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
