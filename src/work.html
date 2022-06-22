@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo-sm.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Infection</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+
+    <section class="banner"
+      style="background-image: url('img/bg-work-with-us.jpg'); background-repeat: no-repeat; background-size: cover; background-position: top center;">
+      <div class="container">
+        <h2 class="banner__title title-sm">Work With Us</h2>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <div class="work__wrap">
+          <div class="work__img">
+            <img src="img/work-img.jpg" alt="work-img">
+          </div>
+          <div class="work__content">
+            <div class="work__title title">Keeping our community safe</div>
+            <div class="work__text">
+              <p>At Infection Professionals we are always looking for enthusiastic, dedicated, and proactive individuals
+                to join our growing team. We offer flexible working arrangements, good management, a strong team
+                environment, above award pay and scope for career progression.
+              </p>
+              <p>With our focus on learning and growth, your position with Infection Professionals could be the next
+                development step in your career.
+              </p>
+              <p>
+                As an employer we look after our staff so our staff can look after our customers and are firm believers
+                in the statement that people stay in jobs where the work environment is supportive and aligns with their
+                values.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container">
+        <h2 class="form__title title">To work for us, PLEASE complete the below form</h2>
+        <form action="#" class="form__form">
+          <div class="form__wrap">
+            <label for="name">First Name<span> *</span>
+              <input id="name" type="text" name="name" value="William" placeholder="Your name" required>
+            </label>
+            <label for="last-name">Last Name<span> *</span>
+              <input id="last-name" type="text" name="last-name" value="Walsh" placeholder="Your Last name" required>
+            </label>
+          </div>
+          <div class="form__wrap">
+            <label for="email">Email<span> *</span>
+              <input id="email" type="email" name="email" value="william.walsh@gmail.com" placeholder="Your email"
+                required>
+            </label>
+            <label for="phone">Best Contact Number<span> *</span>
+              <input id="phone" type="tel" name="phone" value="937-598-0822" placeholder="Your phone" required>
+            </label>
+          </div>
+
+          <label for="subject">Sublect<span> *</span>
+            <input id="subject" type="text" name="subject" value="Work" placeholder="Subject" required>
+          </label>
+          <label for="message">Please let us know why you would like to work for Infection Professionals<span> *</span>
+            <textarea name="message" id="message"
+              placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec turpis lectus, consequat sit amet convallis at, pellentesque sed ipsum. Sed sagittis elit at hendrerit scelerisque."></textarea>
+          </label>
+          <input type="submit" class="form__btn btn btn-reset" value="submit">
+        </form>
+      </div>
+    </section>
+
+    @include('partials/footer.html')
+  </div>
+
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>

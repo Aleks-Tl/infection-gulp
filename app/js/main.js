@@ -68,9 +68,9 @@ __webpack_require__.r(__webpack_exports__);
 (function () {
   var _document, _document2;
 
-  var burger = (_document = document) === null || _document === void 0 ? void 0 : _document.querySelector('[data-burger]');
-  var menu = (_document2 = document) === null || _document2 === void 0 ? void 0 : _document2.querySelector('[data-menu]');
-  burger === null || burger === void 0 ? void 0 : burger.addEventListener('click', function (e) {
+  const burger = (_document = document) === null || _document === void 0 ? void 0 : _document.querySelector('[data-burger]');
+  const menu = (_document2 = document) === null || _document2 === void 0 ? void 0 : _document2.querySelector('[data-menu]');
+  burger === null || burger === void 0 ? void 0 : burger.addEventListener('click', e => {
     burger === null || burger === void 0 ? void 0 : burger.classList.toggle('burger--active');
     menu === null || menu === void 0 ? void 0 : menu.classList.toggle('menu--active');
   });
@@ -475,18 +475,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var btnContainer = document.querySelector('.header .nav__list');
-var items = btnContainer.querySelectorAll('a'),
+const btnContainer = document.querySelector('.header .nav__list');
+let items = btnContainer.querySelectorAll('a'),
     pageBody = document.querySelector('.page__body'),
     burger = document.querySelector('.burger');
-burger.addEventListener('click', function () {
+burger.addEventListener('click', () => {
   pageBody.classList.toggle('lock');
 }); // activity class
 
 for (var i = 0; i < items.length; i++) {
   items[i].addEventListener("click", function (e) {
     if (!e.target.classList.contains('active')) {
-      items.forEach(function (elem) {
+      items.forEach(elem => {
         elem.classList.remove('active');
       });
       e.target.classList.add('active');
@@ -507,24 +507,24 @@ function scrollFunction() {
   }
 }
 
-var itemSubmenu = document.querySelector('.nav > ul > li:nth-child(2)'),
+let itemSubmenu = document.querySelector('.nav > ul > li:nth-child(2)'),
     submenu = document.querySelector('.nav > ul > li:nth-child(2) ul'),
     clientWidth = document.documentElement.clientWidth;
 
 if (clientWidth >= 768) {
-  itemSubmenu.addEventListener('mouseover', function () {
+  itemSubmenu.addEventListener('mouseover', () => {
     submenu.style.display = 'block';
   });
-  itemSubmenu.addEventListener('mouseout', function () {
+  itemSubmenu.addEventListener('mouseout', () => {
     submenu.style.display = 'none';
   });
 } else {
-  itemSubmenu.addEventListener('click', function () {
+  itemSubmenu.addEventListener('click', () => {
     submenu.classList.toggle('open');
   });
 }
 
-var header = document.querySelector('.header'),
+let header = document.querySelector('.header'),
     navMenu = document.querySelector('.nav');
 
 if (clientWidth <= 480) {
