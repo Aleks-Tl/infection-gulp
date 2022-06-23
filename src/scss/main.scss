@@ -35,9 +35,6 @@
     @media (max-width: 768px) {
       padding: 5px 0;
     }
-    @media (max-width: 576px) {
-      //justify-content: flex-start;
-    }
   }
 
   // .header__logo
@@ -274,21 +271,6 @@
       }
     }
 
-    // .nav__list
-
-    &__list {}
-
-    // .nav__item
-
-    &__item {}
-
-    // .nav__link
-
-    &__link {}
-
-    .submenu {
-
-    }
     @media (max-width: 768px) {
       position: absolute;
       top: 0;
@@ -535,10 +517,6 @@
     }
   }
 
-  // .about__title
-
-  &__title {}
-
   // .about__text
 
   &__text {
@@ -557,9 +535,6 @@
 
 .services {
   background: linear-gradient(to right, var(--darkBlue) 50%,#F7F8FA 50%);
-  @media (max-width: 890px) {
-    //background-color: var(--darkBlue);
-  }
   // .services__wrap
 
   &__wrap {
@@ -569,10 +544,6 @@
       flex-direction: column;
     }
   }
-
-  // .services__left
-
-  &__left {}
 
   // .services__right
 
@@ -981,10 +952,6 @@
 
   }
 
-  // .footer__contacts
-
-  &__contacts {}
-
   // .footer__link
 
   &__link {
@@ -1039,14 +1006,6 @@
       }
     }
   }
-
-  // .footer__facebbok
-
-  &__facebbok {}
-
-  // .footer__linkedin
-
-  &__linkedin {}
 
   // .footer__copy
 
@@ -1267,10 +1226,6 @@
     }
   }
 
-  // .aboutus__title
-
-  &__title {}
-
   // .aboutus__decription
 
   &__decription {
@@ -1450,11 +1405,6 @@
       max-width: 100%;
     }
   }
-
-  // .work__title
-
-  &__title {}
-
   // .work__text
 
   &__text {
@@ -1624,17 +1574,6 @@ form {
 
   .services {
     background: linear-gradient(to right, var(--whiteColor) 50%, #F7F8FA 50%);
-    // .services__wrap
-
-    &__wrap {}
-
-    // .services__left
-
-    &__left {}
-
-    // .services__right
-
-    &__right {}
   }
 
   .left-services {
@@ -1648,14 +1587,6 @@ form {
     &__title {
       color: var(--primary);
     }
-
-    // .left-services__text
-
-    &__text {}
-
-    // .left-services__contacts
-
-    &__contacts {}
 
     // .left-services__phone
 
@@ -1673,10 +1604,6 @@ form {
     &__mail {
       background-image: url('../img/icon-email-dark.svg');
     }
-
-    // .left-services__satisfaction
-
-    &__satisfaction {}
   }
 
   .right-services {
@@ -1694,17 +1621,6 @@ form {
         height: 200px;
       }
     }
-    // .form__form
-
-    &__form {}
-
-    // .form__wrap
-
-    &__wrap {}
-
-    // .form__btn
-
-    &__btn {}
   }
 }
 

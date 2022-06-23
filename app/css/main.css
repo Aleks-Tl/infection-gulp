@@ -325,14 +325,6 @@ a {
   }
 }
 
-.title-two {
-  max-width: 704px;
-}
-
-.title-three {
-  max-width: 530px;
-}
-
 .header {
   position: fixed;
   top: 0;
@@ -2265,6 +2257,7 @@ form input[type=submit]:hover {
     height: 200px;
   }
 }
+
 @media (max-width: 576px) {
   .map iframe {
     height: 350px;
